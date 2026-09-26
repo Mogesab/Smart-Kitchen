@@ -138,7 +138,7 @@ window.SK_DATA = {
       "name": "Digital kitchen scale",
       "category": "prep",
       "image": "Digital kitchen scale.jpg",
-      "asin": "",
+      "asin": "B0113UZJE2",
       "query": "digital kitchen scale grams ounces",
       "priceHint": "$",
       "shortDesc": "Cleaner baking, easier portioning and one bowl to wash instead of five.",

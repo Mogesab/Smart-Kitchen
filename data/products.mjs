@@ -69,7 +69,7 @@ export const products = [
     ]
   },
   { slug:'digital-kitchen-scale', name:'Digital kitchen scale', category:'prep', image:'Digital kitchen scale.jpg',
-    asin:'', query:'digital kitchen scale grams ounces', priceHint:'$',
+    asin:'B0113UZJE2', query:'digital kitchen scale grams ounces', priceHint:'$',
     shortDesc:'Cleaner baking, easier portioning and one bowl to wash instead of five.',
     longDesc:'A digital scale weighs ingredients in grams or ounces. Baking recipes that call for "1 cup flour" can vary by 40% by weight depending on how it is scooped - the scale fixes that. It also makes portioning meals fast.',
     why:['Baking recipes come out consistent','Weigh ingredients directly into the mixing bowl','Portion protein and pasta accurately'],
