@@ -34,7 +34,7 @@ export const categories = [
 //   faqs        - [{q, a}] for the FAQ schema on the product page
 export const products = [
   { slug:'vegetable-chopper', name:'Vegetable chopper', category:'prep', image:'1a9dcc60-ad3f-4e3f-b1e2-7b84141bb505.jpg',
-    asin:'', query:'vegetable chopper', priceHint:'$',
+    asin:'B09YH5CPQP', query:'vegetable chopper', priceHint:'$',
     shortDesc:'Chop onions, peppers and everyday vegetables in seconds without tears.',
     longDesc:'A manual vegetable chopper turns a slow knife task into a quick press. It is one of the fastest ways to get dinner started on a busy weeknight, and it keeps onion vapors mostly contained so you can chop without crying.',
     why:['Cuts weeknight prep time noticeably','Kids can help with soft vegetables safely','Uniform pieces cook more evenly'],
@@ -46,7 +46,7 @@ export const products = [
     ]
   },
   { slug:'electric-mini-food-chopper', name:'Electric mini food chopper', category:'prep', image:'Electric mini food chopper.jpg',
-    asin:'', query:'electric mini food chopper', priceHint:'$$',
+    asin:'B01M7SRVC3', query:'electric mini food chopper', priceHint:'$$',
     shortDesc:'Small batches of herbs, garlic, nuts or pesto without hauling out the big processor.',
     longDesc:'A mini food chopper handles the quick jobs a full-size processor is overkill for. It lives in a cabinet, plugs in, and takes ten seconds to turn a shallot and clove of garlic into the base of dinner.',
     why:['Faster than a big food processor for small tasks','Compact enough to store on the counter','One-touch operation'],
@@ -58,7 +58,7 @@ export const products = [
     ]
   },
   { slug:'adjustable-measuring-spoons', name:'Adjustable measuring spoon set', category:'prep', image:'Adjustable measuring spoon set.jpg',
-    asin:'', query:'adjustable measuring spoons', priceHint:'$',
+    asin:'B0DHD9KML2', query:'adjustable measuring spoons', priceHint:'$',
     shortDesc:'One slider replaces a whole drawer of measuring spoons.',
     longDesc:'Adjustable measuring spoons combine every common size (1/8 tsp through 1 tbsp) into one or two tools. Fewer things to wash, fewer things rattling in the drawer.',
     why:['Replaces 6-8 individual spoons','Easier to store than a nested set','Great for small kitchens and RVs'],
@@ -81,7 +81,7 @@ export const products = [
     ]
   },
   { slug:'salad-spinner', name:'Salad spinner', category:'prep', image:'Salad spinner.jpg',
-    asin:'', query:'salad spinner large', priceHint:'$',
+    asin:'B001QTVT4A', query:'salad spinner large', priceHint:'$',
     shortDesc:'Dry greens so dressing sticks instead of pooling in the bottom.',
     longDesc:'A salad spinner rinses greens and spins the water off. Dry leaves hold dressing; wet leaves dilute it. It doubles as a colander and a serving bowl for family salads.',
     why:['Keeps prewashed greens fresh longer in the fridge','Rinses herbs and berries too','Reduces dressing waste'],
@@ -92,7 +92,7 @@ export const products = [
     ]
   },
   { slug:'garlic-press', name:'Garlic press', category:'prep', image:'Garlic press.jpg',
-    asin:'', query:'stainless steel garlic press', priceHint:'$',
+    asin:'B00HEZ888K', query:'stainless steel garlic press', priceHint:'$',
     shortDesc:'Fresh garlic in one squeeze - no cutting board, no sticky fingers.',
     longDesc:'A sturdy garlic press turns a peeled clove into a fine mince without touching it. Look for one with a self-cleaning insert - the older-style presses that clog are the reason many people gave up on them.',
     why:['Fastest way to add fresh garlic to any pan','No garlic smell on your hands','Uniform mince cooks evenly'],
@@ -103,7 +103,7 @@ export const products = [
     ]
   },
   { slug:'programmable-slow-cooker', name:'Programmable slow cooker', category:'cook', image:'Programmable slow cooker.jpg',
-    asin:'', query:'programmable slow cooker 6 quart', priceHint:'$$',
+    asin:'B004P2NG0K', query:'programmable slow cooker 6 quart', priceHint:'$$',
     shortDesc:'Start dinner in the morning, come home to a warm meal.',
     longDesc:'A programmable slow cooker cooks on low or high for a set number of hours, then automatically switches to "keep warm". Perfect for the days when you know you will not be back in time to cook.',
     why:['Hands-off dinner - great for work days','Cheaper cuts of meat turn tender','Easy batch cooking for the freezer'],
@@ -114,7 +114,7 @@ export const products = [
     ]
   },
   { slug:'digital-meat-thermometer', name:'Digital meat thermometer', category:'cook', image:'Digital meat thermometer.jpg',
-    asin:'', query:'instant read digital meat thermometer', priceHint:'$',
+    asin:'B073KYTWGB', query:'instant read digital meat thermometer', priceHint:'$',
     shortDesc:'Never guess if chicken is done - and never overcook a steak - again.',
     longDesc:'A fast instant-read thermometer reads temperature in 2-3 seconds. It is the single best upgrade for anyone nervous about cooking meat: pull chicken at 165 F, steak at your preferred doneness, and stop cutting into everything to check.',
     why:['Food safety - poultry at 165 F, ground beef at 160 F','No more overcooked, dry meat','Also great for candy, bread, oil temperature'],
@@ -125,7 +125,7 @@ export const products = [
     ]
   },
   { slug:'electric-kettle-temperature-control', name:'Electric kettle with temperature control', category:'cook', image:'Electric kettle with temperature control.jpg',
-    asin:'', query:'gooseneck electric kettle temperature control', priceHint:'$$',
+    asin:'B0CKY6C2ZV', query:'gooseneck electric kettle temperature control', priceHint:'$$',
     shortDesc:'Boils in minutes and heats water to the exact temperature for tea or coffee.',
     longDesc:'Different teas and pour-over coffee need different water temperatures - boiling water burns green tea. A variable-temperature kettle takes the guesswork out and boils faster than the stove.',
     why:['Better tea and coffee','Faster than a stovetop kettle','Saves energy vs. heating a full pot'],
@@ -136,7 +136,7 @@ export const products = [
     ]
   },
   { slug:'immersion-blender', name:'Immersion blender', category:'cook', image:'Immersion blender.jpg',
-    asin:'', query:'immersion blender stainless steel', priceHint:'$$',
+    asin:'B0FSZSKB92', query:'immersion blender stainless steel', priceHint:'$$',
     shortDesc:'Blend soup in the pot, whip cream in the bowl - no giant blender to clean.',
     longDesc:'An immersion (stick) blender goes to the food instead of the food going in the blender. Perfect for soups, sauces, smoothies and homemade mayo without dirtying a countertop appliance.',
     why:['Blends directly in the pot - no transferring hot liquids','Easy to store and clean','Doubles as a whisk with the attachment'],
@@ -147,7 +147,7 @@ export const products = [
     ]
   },
   { slug:'silicone-air-fryer-liners', name:'Silicone air fryer liners', category:'cook', image:'Silicone air fryer liners.jpg',
-    asin:'', query:'reusable silicone air fryer liners', priceHint:'$',
+    asin:'B0FLKZ2JXD', query:'reusable silicone air fryer liners', priceHint:'$',
     shortDesc:'Skip the parchment - a reusable liner rinses clean in seconds.',
     longDesc:'Reusable silicone liners sit inside the air fryer basket. They catch drips and prevent sticking, then peel out for a quick rinse. Way less waste than parchment squares.',
     why:['No more scrubbing baked-on cheese or marinade','Dishwasher safe','Cheaper than a box of parchment over a year'],
@@ -158,7 +158,7 @@ export const products = [
     ]
   },
   { slug:'clip-on-pot-strainer', name:'Clip-on pot strainer', category:'cook', image:'Clip-on pot strainer.jpg',
-    asin:'', query:'clip on pot strainer silicone', priceHint:'$',
+    asin:'B0BQM7K73S', query:'clip on pot strainer silicone', priceHint:'$',
     shortDesc:'Drain pasta right at the stove - no separate colander to wash.',
     longDesc:'A silicone strainer clips onto the rim of your pot so you can tilt and drain without moving hot water around. Especially handy for small kitchens where a full colander is a pain to store.',
     why:['One fewer item to wash','No lifting a heavy pot over a sink colander','Compact - fits in a drawer'],
@@ -169,7 +169,7 @@ export const products = [
     ]
   },
   { slug:'airtight-food-storage-containers', name:'Airtight food storage containers', category:'store', image:'Airtight food storage containers.jpg',
-    asin:'', query:'airtight food storage containers set', priceHint:'$$',
+    asin:'B07TD9QT97', query:'airtight food storage containers set', priceHint:'$$',
     shortDesc:'Keep flour, cereal and snacks fresh - and see what you have at a glance.',
     longDesc:'A matching set of clear, airtight canisters turns a jumbled pantry into a "I can see everything" pantry. Airtight seals keep crackers crisp, flour bug-free and cereal from going stale.',
     why:['Extends dry-food shelf life noticeably','Uniform sizes stack cleanly','Clear sides = no forgotten pasta from 2022'],
@@ -180,7 +180,7 @@ export const products = [
     ]
   },
   { slug:'fridge-organizer-bins', name:'Fridge organizer bins', category:'store', image:'Fridge organiser bins.jpg',
-    asin:'', query:'clear refrigerator organizer bins', priceHint:'$$',
+    asin:'B07X64Z8RM', query:'clear refrigerator organizer bins', priceHint:'$$',
     shortDesc:'Group snacks, drinks and leftovers so nothing hides in the back and goes bad.',
     longDesc:'Clear bins with handles turn a chaotic fridge shelf into labeled zones. Lunch stuff in one bin, yogurts in another, breakfast in a third - pull a bin out instead of digging.',
     why:['Reduces food waste - you see what you own','Makes weekly cleaning a lift-and-wipe','Frees up shelf space you did not know you had'],
@@ -191,7 +191,7 @@ export const products = [
     ]
   },
   { slug:'vacuum-sealer', name:'Vacuum sealer machine', category:'store', image:'Vacuum sealer machine.jpg',
-    asin:'', query:'vacuum sealer machine bags', priceHint:'$$$',
+    asin:'B08F72TY67', query:'vacuum sealer machine bags', priceHint:'$$$',
     shortDesc:'Freeze meat, batch-cook meals and stop throwing out expensive cheese.',
     longDesc:'A vacuum sealer removes air from a bag before sealing it, which stops freezer burn and stretches fridge life dramatically. It pays for itself if you buy meat in bulk or hate wasting food.',
     why:['Freezer burn essentially disappears','Sous-vide ready','Cheese, deli meat, herbs last 3-5x longer'],
@@ -202,7 +202,7 @@ export const products = [
     ]
   },
   { slug:'magnetic-spice-rack', name:'Magnetic spice rack', category:'store', image:'Magnetic spice rack.jpg',
-    asin:'', query:'magnetic spice jars refrigerator', priceHint:'$$',
+    asin:'B0C3H9MJQV', query:'magnetic spice jars refrigerator', priceHint:'$$',
     shortDesc:'Free up a drawer - stick every spice on the side of the fridge or hood.',
     longDesc:'Magnetic spice tins stick to the fridge or a metal strip on the wall. Everything is visible and reachable with one hand while you cook. Refill from bulk to save money over pre-filled jars.',
     why:['Frees a drawer or cabinet shelf','You use spices more when you can see them','Buying in bulk is much cheaper'],
@@ -213,7 +213,7 @@ export const products = [
     ]
   },
   { slug:'reusable-silicone-food-bags', name:'Reusable silicone food bags', category:'store', image:'Reusable silicone food bags.jpg',
-    asin:'', query:'reusable silicone food storage bags', priceHint:'$$',
+    asin:'B0B3NJLQF9', query:'reusable silicone food storage bags', priceHint:'$$',
     shortDesc:'A washable, freezer-safe alternative to a lifetime of zip bags.',
     longDesc:'Thick silicone bags with a snap or slider seal replace disposable zip bags. Safe for freezer, microwave and dishwasher. Pays for itself in a few months if your household goes through zip bags weekly.',
     why:['Cuts a real amount of household plastic waste','Freezer, microwave and sous-vide safe','Sturdier than plastic - hold their shape'],
@@ -224,7 +224,7 @@ export const products = [
     ]
   },
   { slug:'date-label-dispenser', name:'Date-label dispenser', category:'store', image:'Date-label dispenser.jpg',
-    asin:'', query:'dissolvable food date labels dispenser', priceHint:'$',
+    asin:'B0HB6VFCDZ', query:'dissolvable food date labels dispenser', priceHint:'$',
     shortDesc:'Tear off a dated label so nothing in the fridge becomes a science project.',
     longDesc:'Dissolvable food labels write with any pen and rinse cleanly off containers. Slap one on leftovers with the date - future you will know exactly what is safe to eat.',
     why:['Fewer surprise leftovers','Great for meal preppers','Dissolves cleanly - no sticky residue'],
@@ -235,7 +235,7 @@ export const products = [
     ]
   },
   { slug:'dish-drying-mat', name:'Dish drying mat', category:'clean', image:'Dish drying mat.jpg',
-    asin:'', query:'microfiber dish drying mat large', priceHint:'$',
+    asin:'B0DLBWS3BH', query:'microfiber dish drying mat large', priceHint:'$',
     shortDesc:'A softer, quieter alternative to a bulky metal drying rack.',
     longDesc:'A thick microfiber mat absorbs water and cushions delicate dishes as they dry. Rolls up out of sight when guests come over. Machine washable.',
     why:['Quieter than a metal rack','Machine washable - actually stays clean','Great for hand-washed knives and pans'],
@@ -246,7 +246,7 @@ export const products = [
     ]
   },
   { slug:'soap-dispensing-dish-brush', name:'Soap dispensing dish brush', category:'clean', image:'Soap dispensing dish brush.jpg',
-    asin:'', query:'soap dispensing dish brush', priceHint:'$',
+    asin:'B000ND7A5M', query:'soap dispensing dish brush', priceHint:'$',
     shortDesc:'Squeeze the handle for soap - no separate sponge, no soapy hands.',
     longDesc:'A brush with a refillable soap chamber in the handle. Press to dispense - the bristles scrub while soap flows. Fewer sponges to replace and more sanitary than a wet sponge sitting on the sink.',
     why:['Sponges get gross fast; bristles rinse and dry','Dilutes soap so a bottle lasts longer','Reachable head for deep glasses and mugs'],
@@ -257,7 +257,7 @@ export const products = [
     ]
   },
   { slug:'over-the-sink-colander', name:'Over-the-sink colander', category:'clean', image:'Over-the-sink colander.jpg',
-    asin:'', query:'over the sink expandable colander', priceHint:'$$',
+    asin:'B086V133MT', query:'over the sink expandable colander', priceHint:'$$',
     shortDesc:'Rinse fruit or drain pasta without giving up half the counter.',
     longDesc:'An expandable colander stretches to sit across the sink, so water drains where it should and you keep counter space free. Folds flat when done.',
     why:['Great for small kitchens','No counter puddle when rinsing berries','Doubles as a serving basket'],
@@ -268,7 +268,7 @@ export const products = [
     ]
   },
   { slug:'countertop-compost-bin', name:'Countertop compost bin', category:'clean', image:'Countertop compost bin.jpg',
-    asin:'', query:'countertop kitchen compost bin charcoal filter', priceHint:'$$',
+    asin:'B01BPDY092', query:'countertop kitchen compost bin charcoal filter', priceHint:'$$',
     shortDesc:'Collect food scraps for a week without a smelly kitchen.',
     longDesc:'A small bin with a charcoal filter lets you collect fruit and veggie scraps for compost or municipal pickup without stinking up the counter. Replace filters every 3-6 months.',
     why:['Reduces trash bag weight and smell','Encourages actually composting','Looks nicer on the counter than a plastic tub'],
@@ -279,7 +279,7 @@ export const products = [
     ]
   },
   { slug:'silicone-sink-splash-guard', name:'Silicone sink splash guard', category:'clean', image:'Silicone sink splash guard.jpg',
-    asin:'', query:'silicone sink splash guard faucet', priceHint:'$',
+    asin:'B0BGQCY6J8', query:'silicone sink splash guard faucet', priceHint:'$',
     shortDesc:'Stop faucet splash from soaking the counter and cabinets.',
     longDesc:'A silicone mat sits behind the faucet and catches the water that would otherwise run down the counter every time you rinse a pan. Wrings out into the sink.',
     why:['Protects the wall/backsplash','Faster kitchen cleanup','No more wet paper-towel roll'],
@@ -290,7 +290,7 @@ export const products = [
     ]
   },
   { slug:'cordless-handheld-vacuum', name:'Cordless handheld vacuum', category:'clean', image:'Cordless handheld vacuum.jpg',
-    asin:'', query:'cordless handheld vacuum kitchen', priceHint:'$$$',
+    asin:'B07KFYF8GQ', query:'cordless handheld vacuum kitchen', priceHint:'$$$',
     shortDesc:'Crumbs, cereal spills and car seats without dragging out the big vacuum.',
     longDesc:'A handheld cordless vacuum with strong suction handles all the quick cleanups a stick vacuum feels like overkill for. Look for washable filters and a wide crevice tool.',
     why:['Great for meals with toddlers','Cleans out the car too','Small enough to leave in a cabinet'],
@@ -301,7 +301,7 @@ export const products = [
     ]
   },
   { slug:'bento-lunch-box', name:'Bento lunch box', category:'family', image:'Bento lunch box.jpg',
-    asin:'', query:'bento lunch box kids leakproof', priceHint:'$$',
+    asin:'B07QZ4CRP3', query:'bento lunch box kids leakproof', priceHint:'$$',
     shortDesc:'Separate compartments so lunch actually looks appealing when it gets there.',
     longDesc:'A partitioned bento box keeps lunch items separate - fruit stays fruit, crackers stay crisp, sauce stays put. Kids eat more when food is not touching.',
     why:['Portion control built in','Encourages variety','Sturdier than plastic bags'],
@@ -312,7 +312,7 @@ export const products = [
     ]
   },
   { slug:'insulated-food-jar', name:'Insulated food jar', category:'family', image:'insulated food jar.jpg',
-    asin:'', query:'insulated food jar thermos kids', priceHint:'$$',
+    asin:'B08NCNLL3Q', query:'insulated food jar thermos kids', priceHint:'$$',
     shortDesc:'Send warm pasta or soup - and have it still be warm at lunchtime.',
     longDesc:'A vacuum-insulated jar keeps hot food hot (or cold food cold) for 4-6 hours. Preheat with boiling water for a minute before adding food and it works even better.',
     why:['Expands lunch options past sandwiches','Cuts food waste from unfinished cold lunches','Great for camping and long drives'],
@@ -323,7 +323,7 @@ export const products = [
     ]
   },
   { slug:'reusable-snack-containers', name:'Reusable snack containers', category:'family', image:'Reusable snack containers.jpg',
-    asin:'', query:'reusable snack containers kids', priceHint:'$',
+    asin:'B00KRBM9RE', query:'reusable snack containers kids', priceHint:'$',
     shortDesc:'Portion-sized cups for goldfish, grapes and everything car-seat friendly.',
     longDesc:'Small snack cups replace the constant flow of tiny plastic bags. Look for ones that seal well enough to survive a bag being tossed in the car.',
     why:['Cheaper than plastic bags over a year','Keeps portions reasonable','Dishwasher safe'],
@@ -334,7 +334,7 @@ export const products = [
     ]
   },
   { slug:'waffle-maker', name:'Waffle maker', category:'family', image:'Waffle maker.jpg',
-    asin:'', query:'nonstick waffle maker family', priceHint:'$$',
+    asin:'B072ZNQC2R', query:'nonstick waffle maker family', priceHint:'$$',
     shortDesc:'Weekend breakfasts, freezer batches and hash-brown hacks in one machine.',
     longDesc:'A good nonstick waffle iron makes breakfast a Saturday morning event and stocks the freezer with pop-in-the-toaster waffles for the week. Belgian irons make deeper pockets for maple syrup.',
     why:['Kids get excited about breakfast','Freezer waffles beat store-bought','Also makes hash browns, cinnamon rolls, cornbread'],
@@ -345,7 +345,7 @@ export const products = [
     ]
   },
   { slug:'breakfast-sandwich-maker', name:'Breakfast sandwich maker', category:'family', image:'Breakfast sandwich maker.jpg',
-    asin:'', query:'breakfast sandwich maker', priceHint:'$$',
+    asin:'B00KDVJLJW', query:'breakfast sandwich maker', priceHint:'$$',
     shortDesc:'A hot egg-and-cheese sandwich in 4-5 minutes, no drive-thru required.',
     longDesc:'A breakfast sandwich maker cooks the egg, warms the muffin and melts the cheese in stackable trays. Slide the divider out and the sandwich assembles itself. Great for rushed mornings.',
     why:['Faster than the pan-and-toaster combo','Kids can use it with light supervision','Uses far less pantry oil'],
