@@ -55,6 +55,37 @@
   document.querySelectorAll('[data-site-footer]').forEach(function(el){ el.innerHTML = footer; });
   document.querySelectorAll('[data-year]').forEach(function(el){ el.textContent = new Date().getFullYear(); });
 
+  // Amazon click tracking: fires a GA4 event whenever any outbound Amazon
+  // link is clicked so we can see which products earn the clicks.
+  document.addEventListener('click', function(e){
+    var a = e.target.closest && e.target.closest('a[href*="amazon.com"]');
+    if(!a) return;
+    var href = a.getAttribute('href') || '';
+    var m = href.match(/\/dp\/([A-Z0-9]{10})/i);
+    var asin = m ? m[1] : '';
+    var kind = href.indexOf('product-reviews') > -1 ? 'reviews' : (asin ? 'buy' : 'search');
+    var name = (a.closest('article,.product-page-body,.compare-table tr,.gadget-card') || {}).querySelector
+      ? (a.closest('article,.product-page-body,.compare-table tr,.gadget-card').querySelector('h1,h3,strong') || {}).textContent || ''
+      : '';
+    name = (name || a.textContent || '').trim().slice(0, 100);
+    if(typeof gtag === 'function'){
+      gtag('event', 'select_content', {
+        content_type: 'amazon_' + kind,
+        item_id: asin || 'search',
+        content_id: asin || 'search',
+        item_name: name,
+        page_location: location.pathname,
+        link_url: href
+      });
+      gtag('event', 'amazon_click', {
+        item_name: name,
+        item_asin: asin || 'search',
+        click_kind: kind,
+        page: location.pathname
+      });
+    }
+  }, true);
+
   var menu = document.querySelector('.menu');
   if(menu){
     menu.addEventListener('click', function(){
