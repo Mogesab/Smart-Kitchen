@@ -1,0 +1,17 @@
+# Cloudflare Pages redirects
+# https://developers.cloudflare.com/pages/configuration/redirects/
+
+# Force trailing-slash consistency for clean URLs (helps SEO — one canonical URL per page)
+/index.html                     /                              301
+/index                          /                              301
+
+# Common typos / old paths → correct pages
+/kitchen-gifts                  /best-kitchen-gifts.html       301
+/kitchen-gadgets                /best-kitchen-gadgets-under-30.html 301
+/meal-prep                      /best-meal-prep-gadgets.html   301
+/air-purifiers                  /best-air-purifiers.html       301
+/small-kitchen                  /small-kitchen-essentials.html 301
+/family-kitchen                 /family-kitchen-essentials.html 301
+
+# 404 fallback (only fires if no file matches)
+/*                              /404.html                      404
