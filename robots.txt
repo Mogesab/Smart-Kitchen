@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://smartkitchenmom.com/sitemap.xml
+Sitemap: https://smart-kitchen-7br.pages.dev/sitemap.xml
