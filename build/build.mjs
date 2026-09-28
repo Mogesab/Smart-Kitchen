@@ -14,7 +14,7 @@ import { AFFILIATE_TAG, categories, products, productsBySlug, amazonUrl, reviews
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const root = join(__dirname, '..');
-const SITE_URL = 'https://smartkitchenmom.com';
+const SITE_URL = 'https://smart-kitchen-7br.pages.dev';
 
 // ---------- 1. Browser copy of the data ---------------------------------
 const browserData =
