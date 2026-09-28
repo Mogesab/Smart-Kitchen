@@ -42,6 +42,7 @@ function productPage(p){
   const cat = categories.find(c => c.id === p.category);
   const buyUrl = amazonUrl(p);
   const revUrl = reviewsUrl(p);
+  const priceRange = { '$': [10, 25], '$$': [25, 60], '$$$': [60, 150] }[p.priceHint] || [15, 50];
   const jsonLd = {
     '@context':'https://schema.org',
     '@type':'Product',
@@ -54,7 +55,10 @@ function productPage(p){
       '@type':'AggregateOffer',
       'availability':'https://schema.org/InStock',
       'url': buyUrl,
-      'priceCurrency':'USD'
+      'priceCurrency':'USD',
+      'lowPrice': priceRange[0],
+      'highPrice': priceRange[1],
+      'offerCount': 1
     }
   };
   const faqLd = p.faqs?.length ? {
